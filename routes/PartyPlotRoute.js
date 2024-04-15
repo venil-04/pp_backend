@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.post('/create',createpp)
 router.post('/update/:id',updatepp)
-router.get('/getall',islogin,getallpp);
+router.get('/getall',getallpp);
 router.delete('/delete/:id',deletepp)
 router.get('/get/:id',getsinglepp)
 router.post('/addreview/:id',islogin,addReview)
